@@ -1,0 +1,11 @@
+# Playwright & Dependencies
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+.cache/
+*.log
+
+# Operating System
+Thumbs.db
+.DS_Store
