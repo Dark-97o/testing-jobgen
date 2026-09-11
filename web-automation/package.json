@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test --project=chromium",
+    "crawl": "playwright test --project=crawler",
+    "generate-pdf": "node generate-pdf-report.mjs"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
